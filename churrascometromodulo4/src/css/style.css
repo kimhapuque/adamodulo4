@@ -1,0 +1,99 @@
+.container{
+    font-family: 'Comic Sans MS', cursive;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.gradient {
+    font-family: 'Comic Sans MS', cursive;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #ffd6e2;
+}
+
+.container-blocos {
+    font-family: 'Comic Sans MS', cursive;
+    position: relative;
+    top: calc(20% + 200px); 
+    left: 52%;
+    transform: translateX(-50%);
+    width: 70%; 
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+#bloco1, #bloco2, #bloco3, #bloco4{
+    font-family: 'Comic Sans MS', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.container-blocos h1{
+    font-family: 'Comic Sans MS', cursive;
+    color: rgb(218, 74, 153);
+}
+
+.container-blocos h3{
+    font-family: 'Comic Sans MS', cursive;
+    color: rgb(218, 74, 153);
+}
+
+.container h1, p{
+    text-align: center;
+}
+
+.container h1{
+    font-family: 'Comic Sans MS', cursive;
+    color: rgb(218, 74, 153);
+}
+
+.container p{
+    font-family: 'Comic Sans MS', cursive;
+    color: rgb(218, 74, 153);
+}
+
+.div-botoes button{
+    background: none;
+    border: none;
+    display: inline-block;
+    color: #ff929b;
+    padding: 0;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.div-botoes button:hover {
+    color: #ff92e4;
+    transition: .2s;
+}
+
+#botao-confirmar {
+    position: absolute;
+    bottom: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #da22ac;
+    color: rgb(255, 255, 255); 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: .2s;
+}

@@ -1,0 +1,89 @@
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gradient {
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #ffd6e2;
+}
+
+.container h1, p{
+    text-align: center;
+}
+
+#convidados_qnt{
+    font-size: 30px;
+    color: rgb(218, 74, 153);
+}
+
+
+.container h1{
+    font-family: 'Comic Sans MS', cursive;
+    color: rgb(218, 74, 153);
+}
+
+.container p{
+    font-family: 'Comic Sans MS', cursive;
+    color: rgb(218, 74, 153);
+}
+
+/*Tabela*/
+
+.tabela{
+    font-family: 'Comic Sans MS', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    background: #fffbfd;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 20px ;
+}
+
+thead th{
+    font-size: 20px;
+    color: rgb(229, 99, 255);
+    border-bottom: 3px solid rgb(191, 81, 255);
+    padding: 50px;
+    text-align: left;
+}
+
+thead th:first-child {
+    width: 50%;
+}
+
+thead th:last-child {
+    width: 30%;
+}
+
+tbody td{
+    font-size: 20px;
+    color: rgb(239, 159, 255);
+    padding: 20px;
+    border-bottom-style: dashed;
+}
+
+#botao-confirmar {
+    font-family: 'Comic Sans MS', cursive;
+    position: relative;
+    top: 50%;
+    left: 20%;
+    transform: translateX(100%);
+    background-color: #ff60d7;
+    color: rgb(255, 255, 255); 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+}

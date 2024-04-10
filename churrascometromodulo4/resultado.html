@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/resultado.css">
+    <title>Churrascômetro</title>
+</head>
+<body class="gradient">
+    <div class="container">
+        <h1>Churrascometro</h1>
+        <p>Confira a lista para seu churrasco</p>
+        <p id="convidados_qnt"><span id="numeros_convidados">0</span> convidados</p>
+
+        <div class="tabela">
+            <table>
+                <thead>
+                    <th>ITEM</th>
+                    <th>QUANTIDADE</th>
+                </thead>
+                <tbody>
+                   <tr>
+                    <td>Carne</td>
+                    <td id="quantidade_carne"></td>
+                   </tr>
+                   <tr>
+                    <td>Pão de alho</td>
+                    <td id="quantidade_pao"></td>
+                   </tr>
+                   <tr>
+                    <td>Refrigerante</td>
+                    <td id="quantidade_refri"></td>
+                   </tr>
+                   <tr>
+                    <td>Água</td>
+                    <td id="quantidade_agua"></td>
+                   </tr>
+                   <tr>
+                    <td>Cerveja</td>
+                    <td id="quantidade_cerveja"></td> 
+                   </tr>
+                   <tr>
+                    <td>Carvão</td>
+                    <td id="quantidade_carvao"></td> 
+                   </tr>
+                   <tr>
+                    <td>Sal</td>
+                    <td id="quantidade_sal"></td> 
+                   </tr>
+                   <tr>
+                    <td>Gelo</td>
+                    <td id="quantidade_gelo"></td> 
+                   </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <br>
+        <button id="botao-confirmar" onclick="voltar()">Voltar</button>
+    </div>
+
+    
+    <script src="./src/js/calculos.js"></script>
+</body>
+</html>
